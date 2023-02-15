@@ -1,0 +1,39 @@
+.table{
+    color: #090908;
+    border-collapse: collapse;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.table__caption{
+    padding: 10px;
+    font-size: large;
+    font-style: bold;
+    font-family: "roboto", sans-serif;
+    border: solid 1px #090908;
+    background-color: rgb(215, 160, 226);
+}
+
+.table__cell{
+    border: solid 1px black;
+    padding: 20px;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-weight: normal;
+    background-color: gray;
+    color: #eaeaea;
+}
+
+.table__col{
+    background-color: rgb(215, 160, 226);
+    color: #eaeaea;
+}
+
+.tabel__conteiner{
+    overflow-x: auto;
+}
+.table__row:hover{
+   
+        background-color: rgb(148, 148, 148);
+    
+    
+}

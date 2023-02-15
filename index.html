@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Pierwsza Strona</title>
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/boddy.css" rel="stylesheet">
+
+    <link href="css/header.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        <h1 class="header__title">Trochę o mnie</h1>
+        <img class="header__img" width="150" height="150" src="images/michal.jpg" alt="Michał Gozdek">
+        <p>
+            <button class="header__button">usuń zdjęcie</button>
+        </p>
+    </header>
+
+    <nav class="navigation">
+        <ul class="navigatin__list">
+            <li> <a class="navigation__Link " href="#początek">Początek</a></li>
+            <li> <a class="navigation__Link" href="#moje-pasje">Moje Pasje</a></li>
+            <li> <a class="navigation__Link" href="#ranking">Ranking</a></li>
+
+        </ul>
+
+    </nav>
+    <main>
+
+        <section class="section__start" id="początek">
+            <h2>Początek</h2>
+
+            <p>Cześć nazywam się Michał Gozdek mam 21 lat i mieszkam w warszawie , zaczynam swoją przygodę z
+                programowaniem
+                od
+                kursu w youcode , <em>marzę by ten kurs umożliwił mi zostać programistą</em> dzięki czemu będę miał
+                więcej
+                możliwości do
+                spełniania moich podróżniczych mażeń , </p>
+        </section>
+
+        <section class="section__hobby" id="moje-pasje">
+            <h2>Moje pasje</h2>
+
+            <p>Jedną z moich pasji jest <b>sport i ruch</b> . Przez całe życie przewija się umnie sport , jako dziecko
+                trenowałem piłkę
+                nożna następnie ćwiczyłem zapasy a teraz regularnie chodzę na siłownie . Drugą moją pasją jest
+                podróżowanie
+                , w
+                zeszłym roku wyruszyłem w podróż samochodem w którym też <strong>mieszkałem i spałem</strong> . Była to
+                świetna
+                przygoda i
+                zamierzam ją powtórzyć w tym roku. Kiedyś pomyślałem sobie że <i>" chciałbym zwiedzić chociaż po jednym
+                    mieście
+                    z każdego państwa na świecie"</i> </p>
+        </section>
+        <section class="section__rank">
+            <header>
+                <h2>Ranking odwiedzonych Miejsc</h2>
+                <p>To jest tabela z moim subiektywnym rankingiem odwiedzonych przezemnie państw i miast</p>
+            </header>
+            <div class="tabel__conteiner">
+                <table class="table" id="ranking">
+                    <caption class="table__caption">Ranking najładniejszych Miast</caption>
+                    <tr>
+                        <th class="table__cell table__col" scope="col">Kraj</th>
+                        <th class="table__cell table__col" scope="col">Miasto</th>
+                        <th class="table__cell table__col" scope="col">Ocena</th>
+                        <th class="table__cell table__col" scope="col">Data</th>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__row" scope="row">Cypr</th>
+                        <td class="table__cell table__row">Pafos</td>
+                        <td class="table__cell table__row">9/10</td>
+                        <td class="table__cell table__row">2012</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__row" scope="row">Hiszpania</th>
+                        <td class="table__cell table__row">Barcelona</td>
+                        <td class="table__cell table__row">8/10</td>
+                        <td class="table__cell table__row">2022</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__ow" scope="row">Szwajcaria</th>
+                        <td class="table__cell table__row">Schmitten</td>
+                        <td class="table__cell table__row">8/10</td>
+                        <td class="table__cell table__row">2016</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__row" scope="row">Włochy</th>
+                        <td class="table__cell table__row">Tirano</td>
+                        <td class="table__cell table__row">8/10</td>
+                        <td class="table__cell table__row">2016</td>
+
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__row" scope="row">Dania</th>
+                        <td class="table__cell table__row">Kopenhaga</td>
+                        <td class="table__cell table__row">7/10</td>
+                        <td class="table__cell table__row">2010</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__row" scope="row">Czechy</th>
+                        <td class="table__cell table__row">Praga</td>
+                        <td class="table__cell table__row">7/10</td>
+                        <td class="table__cell table__row">2022</td>
+
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__row" scope="row">Niemcy</th>
+                        <td class="table__cell table__row">Berlin</td>
+                        <td class="table__cell table__row">5/10</td>
+                        <td class="table__cell table__row">2022</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <div>
+            <button class="button__background">Włącz <span class="button__element"> ciemny </span> motyw</button>
+        </div>
+
+
+    </main>
+    <div class="footer">
+        <footer>
+            Strona By Michał Gozdek
+        </footer>
+    </div>
+
+</body>
+
+</html>

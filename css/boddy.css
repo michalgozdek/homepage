@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.body {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+    background-color: #eaeaea
+}
+
+.boddy__dark{
+    background-color: #090908;
+}
+

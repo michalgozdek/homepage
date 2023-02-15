@@ -1,0 +1,9 @@
+.header {
+    border: solid 1px black;
+    background-color: #bbbbbb;
+    border-radius: 20px;
+    font-family: "arial", sans-serif;
+}
+.header__title{
+    color: #090908;
+}
