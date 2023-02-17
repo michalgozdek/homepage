@@ -1,8 +1,8 @@
 console.log("cześć");
-const przycisk = document.querySelector(".header__button");
-const zdjecie = document.querySelector(".header__img");
+const buttonRemove = document.querySelector(".header__button");
+const photo = document.querySelector(".header__img");
 
-przycisk.addEventListener("click", () => { zdjecie.remove(); });
+buttonRemove.addEventListener("click", () => { photo.remove(); });
 
 
 const body = document.querySelector(".body")
