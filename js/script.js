@@ -1,13 +1,13 @@
 console.log("cześć");
-let przycisk = document.querySelector(".header__button");
-let zdjecie = document.querySelector(".header__img");
+const przycisk = document.querySelector(".header__button");
+const zdjecie = document.querySelector(".header__img");
 
 przycisk.addEventListener("click", () => { zdjecie.remove(); });
 
 
-let body = document.querySelector(".body")
-let button = document.querySelector(".button__background")
-let thenName = document.querySelector(".button__element")
+const body = document.querySelector(".body")
+const button = document.querySelector(".button__background")
+const thenName = document.querySelector(".button__element")
 
 button.addEventListener("click", () => {
     body.classList.toggle("boddy__dark");
